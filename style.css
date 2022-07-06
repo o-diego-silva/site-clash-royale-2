@@ -2,12 +2,43 @@
 
 
 
+@font-face {
+    font-family: 'Clash';
+    src: url('fonts/Clash\ Royale.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Clash p Regular';
+    src: url('fonts/BackBeat\ Regular.ttf') format('truetype'), url('fonts/BackBeat\ Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Clash p Bold';
+    src: url(fonts/BackBeat\ Bold.ttf) format('truetype'), url('fonts/BackBeat\ Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Clash p Italic';
+    src: url('fonts/BackBeat\ Italic.ttf') format('truetype'), url('fonts/BackBeat\ Italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Clash p Light';
+    src: url('fonts/BackBeat\ Light.ttf') format('truetype'), url(fonts/BackBeat\ Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Clash p Light Italic';
+    src: url('fonts/BackBeat\ Light\ Italic.ttf') format('truetype'), url('fonts/BackBeat\ Light\ Italic.otf') format('opentype');
+}
+
+
 body {
     background-image: linear-gradient(90deg, #99cacb, #1274a2);
     background-attachment: fixed;
     color: black;
-    font-size: 19px;
-    font-family: Helvetica;
+    font-size: 18px;
+    font-family: 'Clash p Light', Helvetica, sans-serif;
 }
 
 main {
@@ -22,8 +53,11 @@ main {
 h1 {
     color: #6448A2;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-shadow: 1px 1px 2px #45316ec1;
+    font-family: 'Clash';
+    font-weight: normal;
+    font-style: normal;
 }
 
 h2 {
@@ -31,10 +65,25 @@ h2 {
     color: #FA05FE;
     text-align: left;
     font-size: 1.2em;
+    text-shadow: 1px 1px 2px #bb04be8e;
+    font-family: 'Clash';
+    font-weight: normal;
+    font-style: normal;
 }
 
 p {
     text-align: justify;
     font-size: 1em;
     color: black;
+    font-weight: normal;
+}
+
+strong {
+    font-family: 'Clash p Bold';
+    font-weight: normal;
+}
+
+em {
+    font-family: 'Clash p Light Italic';
+    font-style: normal;
 }
